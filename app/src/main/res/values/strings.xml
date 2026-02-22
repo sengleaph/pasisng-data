@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PassDataScreen</string>
+    <string name="title_activity_learn_navigation_votager">LearnNavigationVotagerActivity</string>
+    <string name="title_activity_pass_data">PassDataActivity</string>
+</resources>
