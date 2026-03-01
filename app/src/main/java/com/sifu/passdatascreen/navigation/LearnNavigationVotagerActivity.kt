@@ -30,22 +30,22 @@ class LearnNavigationVotagerActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PassDataScreenTheme {
-//                Navigator(Screen1())
-                TabNavigator(HomeTab){
-                    Scaffold(
-                        modifier = Modifier.fillMaxSize(),
-                        bottomBar = {
-                            NavigationBar{
-                                TabNavigationItem(tab = HomeTab)
-                                TabNavigationItem(tab = AccountTab)
-                            }
-                        }
-                    ) { innerPadding ->
-                        Box(modifier = Modifier.padding(innerPadding)) {
-                            CurrentTab()
-                        }
-                    }
-                }
+                Navigator(Screen1())
+//                TabNavigator(HomeTab){
+//                    Scaffold(
+//                        modifier = Modifier.fillMaxSize(),
+//                        bottomBar = {
+//                            NavigationBar{
+//                                TabNavigationItem(tab = HomeTab)
+//                                TabNavigationItem(tab = AccountTab)
+//                            }
+//                        }
+//                    ) { innerPadding ->
+//                        Box(modifier = Modifier.padding(innerPadding)) {
+//                            CurrentTab()
+//                        }
+//                    }
+//                }
             }
         }
     }
