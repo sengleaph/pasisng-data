@@ -19,12 +19,7 @@ class LocationScreenActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PassDataScreenTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                MapScreen()
             }
         }
     }

@@ -61,4 +61,12 @@ dependencies {
     implementation("cafe.adriel.voyager:voyager-transitions:${voyagorVersion}")
     implementation("io.github.fletchmckee.liquid:liquid:1.1.1")
 
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("com.google.maps.android:maps-compose-utils:4.3.3")
+    implementation("com.google.maps.android:maps-compose-widgets:4.3.3")
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+    implementation("com.google.maps.android:maps-compose:4.3.3")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+
 }
